@@ -17,3 +17,9 @@ pytest <file_path>/<test_file>.py
 pytest <file_path>/<test_file>.py --html=report.html
 ```
 
+## CLI command to run generate allure report for test
+```bash
+pytest --alluredir=<report_path> <test_file>.py
+allure serve <path to report directory>
+```
+
