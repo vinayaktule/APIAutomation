@@ -1,0 +1,3 @@
+{'name': 'Neo', 'job': 'QA Automation'}
+PUT RESPONSE : b'{"name":"Neo","job":"QA Automation","updatedAt":"2023-03-29T03:50:19.505Z"}'
+--------------------------------------------------

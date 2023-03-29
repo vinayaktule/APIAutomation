@@ -16,7 +16,7 @@ def test_get_req():
 
 def test_post_req():
     path_param = "/api/users"
-    file = open('user.json', 'r')
+    file = open('Request/user.json', 'r')
     json_input = file.read()
     request_json = json.loads(json_input)
     print(request_json)
@@ -31,7 +31,7 @@ def test_post_req():
 
 def test_put_req():
     path_param = "/api/users/2"
-    file = open('user_put.json', 'r')
+    file = open('Request/user_put.json', 'r')
     json_input = file.read()
     request_json = json.loads(json_input)
     print(request_json)
